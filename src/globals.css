@@ -99,7 +99,18 @@ a {
   color: inherit;
   text-decoration: none;
 }
+.mySwiper1 .swiper-slide-active{
+  transform: scale(1.5) !important; /* Increase the scale to make it larger */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
 
+.swiper-button-next:after, .swiper-button-prev:after{
+  font-size: 18px !important;
+  background-color: #554AF0 !important;
+  color:white !important;
+  padding: 11px 15px !important;
+  border-radius: 50% !important;
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
